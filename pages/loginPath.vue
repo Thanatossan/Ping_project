@@ -1,18 +1,26 @@
 <template>
   <div class="text-center mt-4">
     <br><br>
-    <img src="~/assets/newlogo.png">
-    <b-container class="grid">
-      <nuxt-link to="/login">
-        <br>
-        <br>
-        <br>
-        <br>
+    <img
+      src="~/assets/logo2.png"
+      width="700px"
+    >
+    <br><br><br>
+    <b-container>
+      <nuxt-link to="/service">
         <b-button
-          size="lg"
           variant="dark"
+          class='m-5'
         >
-          Login
+          Service
+        </b-button>
+      </nuxt-link>
+      <nuxt-link to="/private">
+        <b-button
+          variant="dark"
+          class='m-5'
+        >
+          Private
         </b-button>
       </nuxt-link>
     </b-container>
