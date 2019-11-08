@@ -15,6 +15,7 @@
       toggleable="lg"
       type="dark"
       variant="dark"
+      fixed="top"
     >
       <i class="fas fa-home white mr-2 ml-2"></i>
       <b-navbar-brand href="#">Kingkran Wihala</b-navbar-brand>
@@ -51,5 +52,10 @@ export default {};
 }
 .logo {
   width: 10%;
+}
+.sticky {
+  position: fixed;
+  top: 0;
+  width: 100%;
 }
 </style>
