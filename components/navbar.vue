@@ -27,18 +27,27 @@
         is-nav
       >
 
-        <b-navbar-nav>
-          <nuxt-link to="/login">
-            <b-button>Sign Out </b-button>
-          </nuxt-link>
-        </b-navbar-nav>
-
         <!-- Right aligned nav items -->
         <b-navbar-nav class="ml-auto">
           <!-- Using 'button-content' slot -->
           <b-navbar-nav class="ml-auto">
-            <p class="pt-2 white"> จำนวนการล็อคอิน : {{ $store.state.counter }} </p>
-            <b-nav-item href="/">Contact Us</b-nav-item>
+            <p class="pt-2 white mr-2"> จำนวนการล็อคอิน : {{ $store.state.counter }} </p>
+            <nuxt-link to="/login">
+              <b-button>Sign Out </b-button>
+            </nuxt-link>
+            <b-nav-item-dropdown
+              right
+              size="lg"
+            >
+              <!-- Using 'button-content' slot -->
+              <template v-slot:button-content>
+                <em>Contact Us</em>
+              </template>
+
+              <p class="pl-4"> Kingkran Wihala
+                @gmail.com </p>
+
+            </b-nav-item-dropdown>
           </b-navbar-nav>
         </b-navbar-nav>
       </b-collapse>

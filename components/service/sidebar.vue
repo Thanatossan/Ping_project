@@ -4,72 +4,77 @@
     <div id="sidebar-wrapper">
       <ul class="sidebar-nav">
         <br>
+        <br><br>
         <li>
           <a href="#">
             <i class="fas fa-caret-right white"></i> ข้อสอบที่น่าสนใจ
           </a>
         </li>
         <li class="ml-5">
-          <a href="#">ข้อสอบ ก.พ.</a>
+          <a href="#Se1">ข้อสอบ ก.พ.</a>
         </li>
         <li class="ml-5">
-          <a href="#">ข้อสอบนายสิบตำรวจ</a>
-        </li>
-        <li class="ml-5">
-          <a href="#">ข้อสอบปลัด</a>
-        </li>
-        <li class="ml-5">
-          <a href="#">ข้อสอบท้องถิ่น</a>
-        </li>
-        <li class="ml-5">
-          <a href="#">ข้อสอบรัฐวิสาหกิจ</a>
+          <a href="#Se2">ข้อสอบนายสิบตำรวจ</a>
         </li>
 
         <li>
-          <a href="#">
+          <a href="#Se3">
             <i class="fas fa-caret-right white"></i> อาชีพยอดนิยมสายราชการ
           </a>
         </li>
         <li class="ml-5">
-          <a href="#">ตำรวจ</a>
+          <a href="#Se4">ตำรวจ</a>
         </li>
         <li class="ml-5">
-          <a href="#">ทหาร</a>
+          <a href="#Se5">ทหาร</a>
         </li>
         <li class="ml-5">
-          <a href="#">ปลัด</a>
+          <a href="#Se6">ปลัด</a>
         </li>
         <li class="ml-5">
-          <a href="#">ผู้ว่า</a>
+          <a href="#Se7">ผู้ว่า</a>
         </li>
         <li class="ml-5">
-          <a href="#">นายอำเภอ</a>
+          <a href="#Se8">นายอำเภอ</a>
         </li>
-
+        <li class="ml-5">
+          <a href="#Se9">อัยการ</a>
+        </li>
         <li>
-          <a href="#">
-            <i class="fas fa-caret-right white"></i> หน่วยงานเอกชนที่น่าสนใจ
-          </a>
-        </li>
-
-        <li>
-          <a href="#">
+          <a href="#Se10">
             <i class="fas fa-caret-right white"></i> กระทรวง
           </a>
         </li>
         <li class="ml-5">
-          <a href="#">การคลัง</a>
+          <a href="#Se11">สำนักนายกรัฐมนตรี</a>
         </li>
         <li class="ml-5">
-          <a href="#">การต่างประเทศ</a>
+          <a href="#Se12">กระทรวงกลาโหม</a>
         </li>
         <li class="ml-5">
-          <a href="#">สำนักนายกรัฐมนตรี</a>
+          <a href="#Se13">กระทรวงการคลัง</a>
         </li>
         <li class="ml-5">
-          <a href="#">กลาโหม</a>
+          <a href="#Se14">กระทรวงการต่างประเทศ</a>
         </li>
-
+        <li class="ml-5">
+          <a href="#Se15">กระทรวงคมนาคม</a>
+        </li>
+        <li class="ml-5">
+          <a href="#Se16">กระทรวงทรัพยากรธรรมชาติและสิ่งแวดล้อม</a>
+        </li>
+        <li class="ml-5">
+          <a href="#Se17">กระทรวงดิจิทัลเพื่อเศรษฐกิจและสังคม</a>
+        </li>
+        <li class="ml-5">
+          <a href="#Se18">กระทรวงพลังงาน</a>
+        </li>
+        <li class="ml-5">
+          <a href="#Se19">กระทรวงมหาดไทย</a>
+        </li>
+        <li class="ml-5">
+          <a href="#Se20">กระทรวงยุติธรรม</a>
+        </li>
       </ul>
     </div>
   </div>
