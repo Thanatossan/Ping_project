@@ -3,77 +3,77 @@
     <!-- Sidebar -->
     <div id="sidebar-wrapper">
       <ul class="sidebar-nav">
-        <br>
+        <br><br><br>
         <li>
           <a href="#">
             <i class="fas fa-caret-right white"></i> ลักษณะงานของ HR
           </a>
         </li>
         <li class="ml-5">
-          <a href="#">การวางแผน</a>
+          <a href="#HR1">การวางแผน</a>
         </li>
         <li class="ml-5">
-          <a href="#">งานพัฒนาบุคคลากร</a>
+          <a href="#HR2">งานพัฒนาบุคคลากร</a>
         </li>
         <li class="ml-5">
-          <a href="#">การสรรหาคัดเลือกบุคคล</a>
+          <a href="#HR3">การสรรหาคัดเลือกบุคคล</a>
         </li>
 
         <li>
-          <a href="#">
+          <a href="#HR4">
             <i class="fas fa-caret-right white"></i> คุณสมบัติที่ HR ควรมี
           </a>
         </li>
         <li class="ml-5">
-          <a href="#">Critical & Enquiring Thinker</a>
+          <a href="#HR5">Critical & Enquiring Thinker</a>
         </li>
         <li class="ml-5">
-          <a href="#">Solution Driven</a>
+          <a href="#HR6">Solution Driven</a>
         </li>
         <li class="ml-5">
-          <a href="#">Courageous</a>
+          <a href="#HR7">Courageous</a>
         </li>
         <li class="ml-5">
-          <a href="#">Collaboration</a>
+          <a href="#HR8">Collaboration</a>
         </li>
         <li class="ml-5">
-          <a href="#">Understand</a>
+          <a href="#HR9">Understand</a>
         </li>
         <li class="ml-5">
-          <a href="#">Resolve Issues </a>
+          <a href="#HR10">Resolve Issues </a>
         </li>
         <li class="ml-5">
-          <a href="#">Credible</a>
+          <a href="#HR11">Credible</a>
         </li>
         <li class="ml-5">
-          <a href="#">Care</a>
+          <a href="#HR12">Care</a>
         </li>
         <li class="ml-5">
-          <a href="#">Future Oriented </a>
+          <a href="#HR13">Future Oriented </a>
         </li>
         <li class="ml-5">
-          <a href="#">Influencer</a>
+          <a href="#HR14">Influencer</a>
         </li>
 
         <li>
-          <a href="#">
+          <a href="#HR15">
             <i class="fas fa-caret-right white"></i> หน่วยงานเอกชนที่น่าสนใจ
           </a>
         </li>
         <li class="ml-5">
-          <a href="#">บริษัท ปตท.จำกัด(มหาชน</a>
+          <a href="#HR16">บริษัท ปตท.จำกัด(มหาชน</a>
         </li>
         <li class="ml-5">
-          <a href="#">บริษัท ปูนซีเมนต์ไทย</a>
+          <a href="#HR17">บริษัท ปูนซีเมนต์ไทย</a>
         </li>
         <li class="ml-5">
-          <a href="#">บริษัท เครือเจริญโภคภัณฑ์</a>
+          <a href="#HR18">บริษัท เครือเจริญโภคภัณฑ์</a>
         </li>
         <li class="ml-5">
-          <a href="#">Google</a>
+          <a href="#HR19">Google</a>
         </li>
         <li class="ml-5">
-          <a href="#">การบินไทย</a>
+          <a href="#HR20">การบินไทย</a>
         </li>
 
       </ul>

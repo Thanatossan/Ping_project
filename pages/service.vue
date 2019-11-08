@@ -333,6 +333,9 @@ export default {
 </script>
 
 <style>
+html {
+  scroll-behavior: smooth;
+}
 /*#page-content-wrapper {
   width: auto;
   position: absolute;
