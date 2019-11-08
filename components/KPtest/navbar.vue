@@ -18,7 +18,7 @@
       fixed="top"
     >
       <i class="fas fa-home white mr-2 ml-2"></i>
-      <b-navbar-brand href="/loginPath">Kingkran Wihala</b-navbar-brand>
+      <b-navbar-brand href="#">Kingkran Wihala</b-navbar-brand>
 
       <b-navbar-toggle target="nav-collapse"></b-navbar-toggle>
 
@@ -32,10 +32,7 @@
 
         <!-- Right aligned nav items -->
         <b-navbar-nav class="ml-auto">
-          <!-- Using 'button-content' slot -->
-          <b-navbar-nav class="ml-auto">
-            <b-nav-item href="/">Contact Us</b-nav-item>
-          </b-navbar-nav>
+          <b-nav-item href="/">Contact Us</b-nav-item>
         </b-navbar-nav>
       </b-collapse>
     </b-navbar>
