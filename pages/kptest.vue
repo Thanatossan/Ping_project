@@ -29,7 +29,90 @@
     <navbar />
     <sidebar />
     <div id="page-content-wrapper">
-      //////////////////////////////////
+      <div class="container-fluid">
+        <h1 class="mt-4">วิชาความรู้ด้านกฎหมาย</h1>
+      </div>
+      <!-- 1 -->
+      <div>
+        <b-card-group deck>
+        <b-card  header-tag="header" footer-tag="footer">
+          <template v-slot:header>
+            <h6 class="mb-0">1. พระราชบัญญัติระเบียบข้าราชการพลเรือนพ.ศ. 2551 ประกาศในราชกิจจานุเบกษาเมื่อไร</h6>
+
+          </template>
+          <b-card-text>ก. 22 มกราคม 2551.</b-card-text>
+          <b-card-text>ข. 23 มกราคม 2551 .</b-card-text>
+          <b-card-text>ค. 24 มกราคม 2551 .</b-card-text>
+          <b-card-text>ง. 25 มกราคม 2551.</b-card-text>
+
+          <template v-slot:footer>
+            <em><b>ตอบ</b> ข. 23 มกราคม 2551 <br>
+              <b>อธิบาย :</b> พระราชบัญญัติระเบียบข้าราชการพลเรือน พ.ศ. 2551 พระบาทสมเด็จพระปรมินทรมหาภูมิพลอดุลยเดช ทรงมีพระบรมราชโองการโปรดเกล้าฯ ให้ตราขึ้นไว้เมื่อ 23 มกราคม พ.ศ. 2551</em>
+           </template>
+        </b-card>  
+
+          
+
+        <b-card  header-tag="header" footer-tag="footer">
+          <template v-slot:header>
+            <h6 class="mb-0">2. พระราชบัญญัติระเบียบข้าราชการพลเรือน พ.ศ. 2551 ตราขึ้นโดยคำแนะนำและยินยอมของหน่วยงานใด</h6>
+
+          </template>
+          <b-card-text>ก. รัฐสภา.</b-card-text>
+          <b-card-text>ข. สำนักนายกรัฐมนตรี .</b-card-text>
+          <b-card-text>ค. สภานิติบัญญัติแห่งชาติ  .</b-card-text>
+          <b-card-text>ง. วุฒิสภา.</b-card-text>
+
+          <template v-slot:footer>
+            <em><b>ตอบ</b> ค. สภานิติบัญญัติแห่งชาติ
+            <br><b>อธิบาย</b> พระราชบัญญัติระเบียบข้าราชการพลเรือน พ.ศ. 2551 ตราขึ้นโดยคำแนะนำและยินยอมของ สภานิติบัญญัติแห่งชาติ
+            </em>
+           </template>
+        </b-card>
+        </b-card-group>
+         <!-- 2 -->
+         <br>
+        <b-card-group deck>
+        <b-card  header-tag="header" footer-tag="footer">
+          <template v-slot:header>
+            <h6 class="mb-0">1. พระราชบัญญัติระเบียบข้าราชการพลเรือนพ.ศ. 2551 ประกาศในราชกิจจานุเบกษาเมื่อไร</h6>
+
+          </template>
+          <b-card-text>ก. 22 มกราคม 2551.</b-card-text>
+          <b-card-text>ข. 23 มกราคม 2551 .</b-card-text>
+          <b-card-text>ค. 24 มกราคม 2551 .</b-card-text>
+          <b-card-text>ง. 25 มกราคม 2551.</b-card-text>
+
+          <template v-slot:footer>
+            <em><b>ตอบ</b> ข. 23 มกราคม 2551 <br>
+              <b>อธิบาย :</b> พระราชบัญญัติระเบียบข้าราชการพลเรือน พ.ศ. 2551 พระบาทสมเด็จพระปรมินทรมหาภูมิพลอดุลยเดช ทรงมีพระบรมราชโองการโปรดเกล้าฯ ให้ตราขึ้นไว้เมื่อ 23 มกราคม พ.ศ. 2551</em>
+           </template>
+        </b-card>  
+
+          
+
+        <b-card  header-tag="header" footer-tag="footer">
+          <template v-slot:header>
+            <h6 class="mb-0">2. พระราชบัญญัติระเบียบข้าราชการพลเรือน พ.ศ. 2551 ตราขึ้นโดยคำแนะนำและยินยอมของหน่วยงานใด</h6>
+
+          </template>
+          <b-card-text>ก. รัฐสภา.</b-card-text>
+          <b-card-text>ข. สำนักนายกรัฐมนตรี .</b-card-text>
+          <b-card-text>ค. สภานิติบัญญัติแห่งชาติ  .</b-card-text>
+          <b-card-text>ง. วุฒิสภา.</b-card-text>
+
+          <template v-slot:footer>
+            <em><b>ตอบ</b> ค. สภานิติบัญญัติแห่งชาติ
+            <br><b>อธิบาย</b> พระราชบัญญัติระเบียบข้าราชการพลเรือน พ.ศ. 2551 ตราขึ้นโดยคำแนะนำและยินยอมของ สภานิติบัญญัติแห่งชาติ
+            </em>
+           </template>
+        </b-card>
+        </b-card-group>
+          
+      </div>
+       
+      
+
     </div>
   </div>
 </template>
