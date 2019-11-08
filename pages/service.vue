@@ -28,31 +28,26 @@
 
     <navbar />
     <sidebar />
-    <div id="page-content-wrapper">
-    </div>
     <card />
-  </div>
   </div>
 </template>
 
 <script>
 import navbar from "~/components/service/navbar";
 import sidebar from "~/components/service/sidebar";
-import card from "~/components/service/card";
 export default {
   components: {
     navbar,
-    sidebar,
-    card
+    sidebar
   }
 };
 </script>
 
 <style>
-#page-content-wrapper {
+/*#page-content-wrapper {
   width: auto;
   position: absolute;
-  padding: 50px;
-  margin-left: 220px;
-}
+  margin-left: 270px;
+  margin-top: 25px;
+}*/
 </style>
