@@ -25,16 +25,34 @@
           </a>
         </li>
         <li class="ml-5">
+          <a href="#">Critical & Enquiring Thinker</a>
+        </li>
+        <li class="ml-5">
+          <a href="#">Solution Driven</a>
+        </li>
+        <li class="ml-5">
+          <a href="#">Courageous</a>
+        </li>
+        <li class="ml-5">
           <a href="#">Collaboration</a>
+        </li>
+        <li class="ml-5">
+          <a href="#">Understand</a>
+        </li>
+        <li class="ml-5">
+          <a href="#">Resolve Issues </a>
         </li>
         <li class="ml-5">
           <a href="#">Credible</a>
         </li>
         <li class="ml-5">
-          <a href="#">Inflencer</a>
+          <a href="#">Care</a>
         </li>
         <li class="ml-5">
-          <a href="#">Future Oriented</a>
+          <a href="#">Future Oriented </a>
+        </li>
+        <li class="ml-5">
+          <a href="#">Influencer</a>
         </li>
 
         <li>
@@ -104,7 +122,7 @@ export default {};
 
   width: 260px;
 
-  height: 90.5%;
+  height: 100%;
 
   margin-left: -250px;
 

@@ -15,6 +15,7 @@
       toggleable="lg"
       type="dark"
       variant="dark"
+      fixed="top"
     >
       <i class="fas fa-home white mr-2 ml-2"></i>
       <b-navbar-brand href="/loginPath">Kingkran Wihala</b-navbar-brand>
