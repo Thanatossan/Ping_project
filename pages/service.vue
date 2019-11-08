@@ -226,6 +226,7 @@
         </p>
     </div>
     </div>
+
   </div>
 </template>
 
@@ -241,10 +242,10 @@ export default {
 </script>
 
 <style>
-#page-content-wrapper {
+/*#page-content-wrapper {
   width: auto;
   position: absolute;
-  padding: 50px;
-  margin-left: 220px;
-}
+  margin-left: 270px;
+  margin-top: 25px;
+}*/
 </style>

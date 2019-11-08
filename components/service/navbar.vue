@@ -53,4 +53,9 @@ export default {};
 .logo {
   width: 10%;
 }
+.sticky {
+  position: fixed;
+  top: 0;
+  width: 100%;
+}
 </style>
