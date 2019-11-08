@@ -31,7 +31,7 @@
 </template>
 
 <script>
-import navbar from "../components/private/navbar";
+import navbar from "../components/navbar";
 export default {
   components: {
     navbar
