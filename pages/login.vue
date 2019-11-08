@@ -48,6 +48,7 @@ export default {
     onSubmit(evt) {
       evt.preventDefault();
       if (this.form.name === "1234" && this.form.password === "1234") {
+        this.$store.commit("increment");
         this.$router.push("/loginPath");
       } else {
         alert("Email or password incorrect");
