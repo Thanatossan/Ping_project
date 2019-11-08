@@ -35,7 +35,7 @@
 </template>
 
 <script>
-import navbar from "~/components/KPtest/navbar";
+import navbar from "~/components/navbar";
 import sidebar from "~/components/KPtest/sidebar";
 export default {
   components: {

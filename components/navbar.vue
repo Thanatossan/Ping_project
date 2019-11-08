@@ -18,7 +18,7 @@
       fixed="top"
     >
       <i class="fas fa-home white mr-2 ml-2"></i>
-      <b-navbar-brand href="#">Kingkran Wihala</b-navbar-brand>
+      <b-navbar-brand>Kingkran Wihala</b-navbar-brand>
 
       <b-navbar-toggle target="nav-collapse"></b-navbar-toggle>
 
@@ -26,13 +26,20 @@
         id="nav-collapse"
         is-nav
       >
+
         <b-navbar-nav>
-          <b-nav-item href="/">Sign Out</b-nav-item>
+          <nuxt-link to="/login">
+            <b-button>Sign Out </b-button>
+          </nuxt-link>
         </b-navbar-nav>
 
         <!-- Right aligned nav items -->
         <b-navbar-nav class="ml-auto">
-          <b-nav-item href="/">Contact Us</b-nav-item>
+          <!-- Using 'button-content' slot -->
+          <b-navbar-nav class="ml-auto">
+            <p class="pt-2 white"> จำนวนการล็อคอิน : {{ $store.state.counter }} </p>
+            <b-nav-item href="/">Contact Us</b-nav-item>
+          </b-navbar-nav>
         </b-navbar-nav>
       </b-collapse>
     </b-navbar>
@@ -52,10 +59,5 @@ export default {};
 }
 .logo {
   width: 10%;
-}
-.sticky {
-  position: fixed;
-  top: 0;
-  width: 100%;
 }
 </style>

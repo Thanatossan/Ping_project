@@ -1,34 +1,42 @@
 <template>
-  <div class="text-center mt-4">
-    <br><br>
-    <img
-      src="~/assets/logo2.png"
-      width="700px"
-    >
-    <br><br><br>
-    <b-container>
-      <nuxt-link to="/service">
-        <b-button
-          variant="dark"
-          class='m-5'
-        >
-          Service
-        </b-button>
-      </nuxt-link>
-      <nuxt-link to="/private">
-        <b-button
-          variant="dark"
-          class='m-5'
-        >
-          Private
-        </b-button>
-      </nuxt-link>
-    </b-container>
+  <div>
+    <navbar />
+    <div class="text-center mt-4">
+      <br><br>
+      <img
+        src="~/assets/logo2.png"
+        width="700px"
+      >
+      <br><br><br>
+      <b-container>
+        <nuxt-link to="/service">
+          <b-button
+            variant="dark"
+            class='m-5'
+          >
+            Service
+          </b-button>
+        </nuxt-link>
+        <nuxt-link to="/private">
+          <b-button
+            variant="dark"
+            class='m-5'
+          >
+            Private
+          </b-button>
+        </nuxt-link>
+      </b-container>
+    </div>
   </div>
 </template>
 
 <script>
-export default {};
+import navbar from "../components/navbar";
+export default {
+  components: {
+    navbar
+  }
+};
 </script>
 
 <style>
