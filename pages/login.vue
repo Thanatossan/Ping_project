@@ -47,7 +47,10 @@ export default {
   methods: {
     onSubmit(evt) {
       evt.preventDefault();
-      if (this.form.name === "1234" && this.form.password === "1234") {
+      if (
+        this.form.name === "kingkarn_wihala@elearning.cmu.ac.th" &&
+        this.form.password === "1234"
+      ) {
         this.$store.commit("increment");
         this.$router.push("/loginPath");
       } else {

@@ -32,7 +32,7 @@
           <!-- Using 'button-content' slot -->
           <b-navbar-nav class="ml-auto">
             <p class="pt-2 white mr-2"> จำนวนการล็อคอิน : {{ $store.state.counter }} </p>
-            <nuxt-link to="/login">
+            <nuxt-link to="/">
               <b-button>Sign Out </b-button>
             </nuxt-link>
             <b-nav-item-dropdown

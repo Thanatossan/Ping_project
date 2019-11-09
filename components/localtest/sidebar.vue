@@ -2,16 +2,23 @@
   <div id="wrapper">
     <!-- Sidebar -->
     <div id="sidebar-wrapper">
+
       <ul class="sidebar-nav">
         <br><br><br>
+        <nuxt-link to="/service">
+          <b-button class="ml-4"> Back </b-button>
+        </nuxt-link>
         <li>
+
           <a href="#">
             <i class="fas fa-caret-right white"></i> ข้อสอบท้องถิ่น
           </a>
         </li>
 
       </ul>
+
     </div>
+
   </div>
 </template>
 

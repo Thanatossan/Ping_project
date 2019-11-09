@@ -4,6 +4,9 @@
     <div id="sidebar-wrapper">
       <ul class="sidebar-nav">
         <br><br><br>
+        <nuxt-link to="/service">
+          <b-button class="ml-4"> Back </b-button>
+        </nuxt-link>
         <li>
           <a href="#">
             <i class="fas fa-caret-right white"></i> วิชาความรู้ทั่วไป
