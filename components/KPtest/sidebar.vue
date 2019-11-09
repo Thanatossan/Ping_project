@@ -3,71 +3,31 @@
     <!-- Sidebar -->
     <div id="sidebar-wrapper">
       <ul class="sidebar-nav">
-        <br>
+        <br><br><br>
         <li>
           <a href="#">
-            <i class="fas fa-caret-right white"></i> ข้อสอบที่น่าสนใจ
+            <i class="fas fa-caret-right white"></i> วิชาความรู้ด้านกฎหมาย
           </a>
         </li>
         <li class="ml-5">
-          <a href="#">ข้อสอบ ก.พ.</a>
+          <a href="#">พรบ.ข้าราชการพลเรือน 2551</a>
         </li>
         <li class="ml-5">
-          <a href="#">ข้อสอบนายสิบตำรวจ</a>
+          <a href="#">วิธีปฏิบัติราชการทางปกครอง</a>
         </li>
         <li class="ml-5">
-          <a href="#">ข้อสอบปลัด</a>
+          <a href="#">ระเบียบบริหารราชการแผ่นดิน</a>
         </li>
-        <li class="ml-5">
-          <a href="#">ข้อสอบท้องถิ่น</a>
-        </li>
-        <li class="ml-5">
-          <a href="#">ข้อสอบรัฐวิสาหกิจ</a>
-        </li>
-
         <li>
           <a href="#">
-            <i class="fas fa-caret-right white"></i> อาชีพยอดนิยมสายราชการ
+            <i class="fas fa-caret-right white"></i> วิชาความรู้ความสามารถทั่วไป และภาษาไทย
           </a>
         </li>
         <li class="ml-5">
-          <a href="#">ตำรวจ</a>
+          <a href="#">อุปมาอุปไมย</a>
         </li>
         <li class="ml-5">
-          <a href="#">ทหาร</a>
-        </li>
-        <li class="ml-5">
-          <a href="#">ปลัด</a>
-        </li>
-        <li class="ml-5">
-          <a href="#">ผู้ว่า</a>
-        </li>
-        <li class="ml-5">
-          <a href="#">นายอำเภอ</a>
-        </li>
-
-        <li>
-          <a href="#">
-            <i class="fas fa-caret-right white"></i> หน่วยงานเอกชนที่น่าสนใจ
-          </a>
-        </li>
-
-        <li>
-          <a href="#">
-            <i class="fas fa-caret-right white"></i> กระทรวง
-          </a>
-        </li>
-        <li class="ml-5">
-          <a href="#">การคลัง</a>
-        </li>
-        <li class="ml-5">
-          <a href="#">การต่างประเทศ</a>
-        </li>
-        <li class="ml-5">
-          <a href="#">สำนักนายกรัฐมนตรี</a>
-        </li>
-        <li class="ml-5">
-          <a href="#">กลาโหม</a>
+          <a href="#">การเรียงข้อความ</a>
         </li>
 
       </ul>
