@@ -44,8 +44,8 @@
                 <em>Contact Us</em>
               </template>
 
-              <p class="pl-4"> Kingkran Wihala
-                @gmail.com </p>
+              <p class="p-2"> E-mail : Abdul.team@gmail.com
+                Phone : 053-555789</p>
 
             </b-nav-item-dropdown>
           </b-navbar-nav>
