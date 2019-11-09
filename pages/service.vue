@@ -41,53 +41,56 @@
         <br>
         <h3 class="pt-2">ข้อสอบ ก.พ.</h3><br>
         <b-card-group deck>
-        <b-card  header-tag="header" footer-tag="footer">
-          <template v-slot:header>
-            <h6 class="mb-0">วิชาความรู้ด้านกฎหมาย </h6>
+          <b-card
+            header-tag="header"
+            footer-tag="footer"
+          >
+            <template v-slot:header>
+              <h6 class="mb-0">วิชาความรู้ด้านกฎหมาย </h6>
 
-          </template>
-          <b-card-text><img
-            src="~/assets/service/kpt1.jpg"
-            width="500"
-            height="250"
-          ></b-card-text>
+            </template>
+            <b-card-text><img
+                src="~/assets/service/kpt1.jpg"
+                width="500"
+                height="250"
+              ></b-card-text>
 
-          <template v-slot:footer>
-            <em>
-              <nuxt-link to="/kptest">
-                
+            <template v-slot:footer>
+              <em>
+                <nuxt-link to="/kptest">
+
                   คลิก
-                
-              </nuxt-link>
-            </em>
-           </template>
-        </b-card>  
 
-          
+                </nuxt-link>
+              </em>
+            </template>
+          </b-card>
 
-        <b-card  header-tag="header" footer-tag="footer">
-          <template v-slot:header>
-            <h6 class="mb-0">วิชาความรู้ความสามารถทั่วไป และภาษาไทย</h6>
+          <b-card
+            header-tag="header"
+            footer-tag="footer"
+          >
+            <template v-slot:header>
+              <h6 class="mb-0">วิชาความรู้ความสามารถทั่วไป และภาษาไทย</h6>
 
-          </template>
-          <b-card-text><img
-            src="~/assets/service/kpt2.jpg"
-            width="500"
-            height="250"
-          >.</b-card-text>
-          <template v-slot:footer>
-            <em>
-              <nuxt-link to="/kptest">
-                
+            </template>
+            <b-card-text><img
+                src="~/assets/service/kpt2.jpg"
+                width="500"
+                height="250"
+              >.</b-card-text>
+            <template v-slot:footer>
+              <em>
+                <nuxt-link to="/kptest">
+
                   คลิก
-          
-              </nuxt-link>
-            </em>
-           </template>
-        </b-card>
+
+                </nuxt-link>
+              </em>
+            </template>
+          </b-card>
         </b-card-group>
-        
-        
+
         <h2
           class="pt-4"
           id="Se2"
@@ -96,79 +99,88 @@
         <h3 class="pt-2">ข้อสอบนายสิบตำรวจ</h3><br>
       </div>
       <b-card-group deck>
-        <b-card  header-tag="header" footer-tag="footer">
+        <b-card
+          header-tag="header"
+          footer-tag="footer"
+        >
           <template v-slot:header>
             <h6 class="mb-0">วิชาความรู้ทั่วไป </h6>
 
           </template>
           <b-card-text><img
-            src="~/assets/service/pt1.jpg"
-            width="500"
-            height="250"
-          >.</b-card-text>
+              src="~/assets/service/pt1.jpg"
+              width="500"
+              height="250"
+            >.</b-card-text>
 
           <template v-slot:footer>
             <em>
               <nuxt-link to="/policetest">
-                
-                  คลิก
-                
+
+                คลิก
+
               </nuxt-link>
             </em>
-           </template>
-        </b-card>  
+          </template>
+        </b-card>
 
-          
-
-        <b-card  header-tag="header" footer-tag="footer">
+        <b-card
+          header-tag="header"
+          footer-tag="footer"
+        >
           <template v-slot:header>
             <h6 class="mb-0">พ.ร.บ.ตำรวจแห่งชาติ พ.ศ.2547</h6>
 
           </template>
           <b-card-text><img
-            src="~/assets/service/pt2.jpg"
-            width="500"
-            height="250"
-          >.</b-card-text>
+              src="~/assets/service/pt2.jpg"
+              width="500"
+              height="250"
+            >.</b-card-text>
           <template v-slot:footer>
             <em>
               <nuxt-link to="/policetest">
-                
-                  คลิก
-          
+
+                คลิก
+
               </nuxt-link>
             </em>
-           </template>
+          </template>
         </b-card>
-        </b-card-group>
-      
+      </b-card-group>
+      <br>
       <h2
-        id="Se3"
+        id="See2"
         class="pt-4 "
       ></h2>
       <h3 class="pt-2">ข้อสอบท้องถิ่น</h3><br>
-      <b-card  header-tag="header" footer-tag="footer">
-          <template v-slot:header>
-            <h6 class="mb-0">ตัวอย่างข้อสอบ</h6>
+      <b-card
+        header-tag="header"
+        footer-tag="footer"
+      >
+        <template v-slot:header>
+          <h6 class="mb-0">ตัวอย่างข้อสอบ</h6>
 
-          </template>
-          <b-card-text><img
+        </template>
+        <b-card-text><img
             src="~/assets/service/lt1.jpg"
             width="500"
             height="250"
           >.</b-card-text>
-          <template v-slot:footer>
-            <em>
-              <nuxt-link to="/localtest">
-                
-                  คลิก
-          
-              </nuxt-link>
-            </em>
-           </template>
-        </b-card>
-      
-      
+        <template v-slot:footer>
+          <em>
+            <nuxt-link to="/localtest">
+
+              คลิก
+
+            </nuxt-link>
+          </em>
+        </template>
+      </b-card>
+      <h2
+        id="Se3"
+        class="pt-4 "
+      ></h2> <br><br>
       <div class="container-fluid">
         <center>
           <h1 class="mt-4">อาชีพยอดนิยมสายราชการ</h1>

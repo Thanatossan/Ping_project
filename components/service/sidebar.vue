@@ -16,6 +16,9 @@
         <li class="ml-5">
           <a href="#Se2">ข้อสอบนายสิบตำรวจ</a>
         </li>
+        <li class="ml-5">
+          <a href="#See2">ข้อสอบท้องถิ่น</a>
+        </li>
 
         <li>
           <a href="#Se3">
