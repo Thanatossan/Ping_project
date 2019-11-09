@@ -40,23 +40,54 @@
       <div class="container">
         <br>
         <h3 class="pt-2">ข้อสอบ ก.พ.</h3><br>
-        <nuxt-link to="/kptest">
-          <b-button
-            variant="dark"
-            class='m-5'
-          >
-            วิชาความรู้ด้านกฎหมาย
-          </b-button>
-        </nuxt-link>
-        <nuxt-link to="/kptest">
-          <b-button
-            variant="dark"
-            class='m-5'
-          >
-            วิชาความรู้ความสามารถทั่วไป และภาษาไทย
-          </b-button>
+        <b-card-group deck>
+        <b-card  header-tag="header" footer-tag="footer">
+          <template v-slot:header>
+            <h6 class="mb-0">วิชาความรู้ด้านกฎหมาย </h6>
 
-        </nuxt-link>
+          </template>
+          <b-card-text><img
+            src="~/assets/service/kpt1.jpg"
+            width="500"
+            height="250"
+          ></b-card-text>
+
+          <template v-slot:footer>
+            <em>
+              <nuxt-link to="/kptest">
+                
+                  คลิก
+                
+              </nuxt-link>
+            </em>
+           </template>
+        </b-card>  
+
+          
+
+        <b-card  header-tag="header" footer-tag="footer">
+          <template v-slot:header>
+            <h6 class="mb-0">วิชาความรู้ความสามารถทั่วไป และภาษาไทย</h6>
+
+          </template>
+          <b-card-text><img
+            src="~/assets/service/kpt2.jpg"
+            width="500"
+            height="250"
+          >.</b-card-text>
+          <template v-slot:footer>
+            <em>
+              <nuxt-link to="/kptest">
+                
+                  คลิก
+          
+              </nuxt-link>
+            </em>
+           </template>
+        </b-card>
+        </b-card-group>
+        
+        
         <h2
           class="pt-4"
           id="Se2"
@@ -64,26 +95,80 @@
         <br>
         <h3 class="pt-2">ข้อสอบนายสิบตำรวจ</h3><br>
       </div>
-      <nuxt-link to="/kptest">
-        <b-button
-          variant="dark"
-          class='m-5'
-        >
-          วิชาความรู้ทั่วไป
-        </b-button>
-      </nuxt-link>
-      <nuxt-link to="/kptest">
-        <b-button
-          variant="dark"
-          class='m-5'
-        >
-          พ.ร.บ.ตำรวจแห่งชาติ พ.ศ.2547
-        </b-button>
-      </nuxt-link>
+      <b-card-group deck>
+        <b-card  header-tag="header" footer-tag="footer">
+          <template v-slot:header>
+            <h6 class="mb-0">วิชาความรู้ทั่วไป </h6>
+
+          </template>
+          <b-card-text><img
+            src="~/assets/service/pt1.jpg"
+            width="500"
+            height="250"
+          >.</b-card-text>
+
+          <template v-slot:footer>
+            <em>
+              <nuxt-link to="/policetest">
+                
+                  คลิก
+                
+              </nuxt-link>
+            </em>
+           </template>
+        </b-card>  
+
+          
+
+        <b-card  header-tag="header" footer-tag="footer">
+          <template v-slot:header>
+            <h6 class="mb-0">พ.ร.บ.ตำรวจแห่งชาติ พ.ศ.2547</h6>
+
+          </template>
+          <b-card-text><img
+            src="~/assets/service/pt2.jpg"
+            width="500"
+            height="250"
+          >.</b-card-text>
+          <template v-slot:footer>
+            <em>
+              <nuxt-link to="/policetest">
+                
+                  คลิก
+          
+              </nuxt-link>
+            </em>
+           </template>
+        </b-card>
+        </b-card-group>
+      
       <h2
         id="Se3"
         class="pt-4 "
       ></h2>
+      <h3 class="pt-2">ข้อสอบท้องถิ่น</h3><br>
+      <b-card  header-tag="header" footer-tag="footer">
+          <template v-slot:header>
+            <h6 class="mb-0">ตัวอย่างข้อสอบ</h6>
+
+          </template>
+          <b-card-text><img
+            src="~/assets/service/lt1.jpg"
+            width="500"
+            height="250"
+          >.</b-card-text>
+          <template v-slot:footer>
+            <em>
+              <nuxt-link to="/localtest">
+                
+                  คลิก
+          
+              </nuxt-link>
+            </em>
+           </template>
+        </b-card>
+      
+      
       <div class="container-fluid">
         <center>
           <h1 class="mt-4">อาชีพยอดนิยมสายราชการ</h1>
