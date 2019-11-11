@@ -202,42 +202,36 @@ export default {};
   background: none;
 }
 
-/**
-
-@media(min-width:768px) {
-  
-#wrapper {
+@media (min-width: 768px) {
+  #wrapper {
     padding-left: 0;
   }
-  
-#wrapper.toggled {
+
+  #wrapper.toggled {
     padding-left: 0px;
   }
-  
-#sidebar-wrapper {
+
+  #sidebar-wrapper {
     width: 250px;
   }
-  
-#wrapper.toggled 
-#sidebar-wrapper {
+
+  #wrapper.toggled #sidebar-wrapper {
     width: 250px;
   }
-  
-#page-content-wrapper {
+
+  #page-content-wrapper {
     padding-left: 50px;
     position: relative;
   }
-  
-#wrapper.toggled #page-content-wrapper {
+
+  #wrapper.toggled #page-content-wrapper {
     position: relative;
     margin-right: 0;
- padding-left: 35px; }
-
+    padding-left: 35px;
+  }
 }
 
-**/
-
-.footer {
+**/ .footer {
   position: fixed;
   left: 0;
   bottom: 0;

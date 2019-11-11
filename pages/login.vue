@@ -14,7 +14,7 @@
         type="text"
         class="mt-5"
         required
-        placeholder="Username"
+        placeholder="Email"
       ></b-form-input>
       <b-form-input
         v-model="form.password"
