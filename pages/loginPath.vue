@@ -12,7 +12,8 @@
         <nuxt-link to="/service">
           <b-button
             variant="dark"
-            class='m-5'
+            class='m-5 p-4'
+            size="lg"
           >
             Service
           </b-button>
@@ -20,7 +21,8 @@
         <nuxt-link to="/private">
           <b-button
             variant="dark"
-            class='m-5'
+            class='m-5 p-4'
+            size="lg"
           >
             Private
           </b-button>

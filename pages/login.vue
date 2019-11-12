@@ -14,7 +14,7 @@
         type="text"
         class="mt-5"
         required
-        placeholder="Email"
+        placeholder="ex. xxxxx@elearning.cmu.ac.th"
       ></b-form-input>
       <b-form-input
         v-model="form.password"
